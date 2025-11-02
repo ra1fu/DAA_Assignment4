@@ -1,0 +1,15 @@
+{
+  "n": 10,
+  "edges": [
+    {"from": 0, "to": 1, "weight": 3},
+    {"from": 1, "to": 2, "weight": 2},
+    {"from": 2, "to": 3, "weight": 4},
+    {"from": 3, "to": 1, "weight": 1},
+    {"from": 4, "to": 5, "weight": 2},
+    {"from": 5, "to": 6, "weight": 3},
+    {"from": 6, "to": 7, "weight": 1},
+    {"from": 7, "to": 8, "weight": 2},
+    {"from": 8, "to": 9, "weight": 3}
+  ],
+  "description": "Small mixed graph: one 1–2–3 cycle and a DAG chain."
+}

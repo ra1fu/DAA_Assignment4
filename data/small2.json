@@ -1,0 +1,13 @@
+{
+  "n": 8,
+  "edges": [
+    {"from": 0, "to": 1, "weight": 1},
+    {"from": 1, "to": 2, "weight": 2},
+    {"from": 2, "to": 3, "weight": 1},
+    {"from": 3, "to": 4, "weight": 2},
+    {"from": 4, "to": 5, "weight": 1},
+    {"from": 1, "to": 6, "weight": 2},
+    {"from": 6, "to": 7, "weight": 1}
+  ],
+  "description": "Acyclic small DAG with simple linear and branch structure."
+}

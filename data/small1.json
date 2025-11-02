@@ -1,0 +1,12 @@
+{
+  "n": 6,
+  "edges": [
+    {"from": 0, "to": 1, "weight": 2},
+    {"from": 1, "to": 2, "weight": 1},
+    {"from": 2, "to": 0, "weight": 3},
+    {"from": 2, "to": 3, "weight": 2},
+    {"from": 3, "to": 4, "weight": 1},
+    {"from": 4, "to": 5, "weight": 2}
+  ],
+  "description": "Cyclic small graph with 1 SCC (0-1-2 cycle) + linear tail."
+}

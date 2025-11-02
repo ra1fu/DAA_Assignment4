@@ -1,0 +1,26 @@
+{
+  "n": 50,
+  "edges": [
+    {"from": 0, "to": 1, "weight": 1},
+    {"from": 1, "to": 2, "weight": 1},
+    {"from": 2, "to": 0, "weight": 1},
+
+    {"from": 5, "to": 6, "weight": 2},
+    {"from": 6, "to": 7, "weight": 3},
+    {"from": 7, "to": 5, "weight": 1},
+
+    {"from": 10, "to": 11, "weight": 1},
+    {"from": 11, "to": 12, "weight": 2},
+    {"from": 12, "to": 13, "weight": 3},
+    {"from": 13, "to": 14, "weight": 1},
+    {"from": 14, "to": 15, "weight": 1},
+
+    {"from": 20, "to": 25, "weight": 2},
+    {"from": 25, "to": 30, "weight": 3},
+    {"from": 30, "to": 35, "weight": 1},
+    {"from": 35, "to": 40, "weight": 2},
+    {"from": 40, "to": 45, "weight": 3},
+    {"from": 45, "to": 49, "weight": 1}
+  ],
+  "description": "Large mixed graph with several SCCs and long DAG chains. Used for timing tests."
+}
